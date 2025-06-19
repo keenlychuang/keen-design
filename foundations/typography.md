@@ -4,7 +4,6 @@
 
 ### Display/Title Font
 **Primary:** Georgia, serif  
-**Character:** Authoritative yet approachable  
 **Usage:** Main page titles, hero headings, major section titles
 
 ```css
@@ -15,7 +14,6 @@ font-family: Georgia, serif;
 **Primary:** Georgia, serif  
 **Sans serif alternative:** System UI stack  
 **Fallback:** serif  
-**Character:** Structured, readable hierarchy
 
 ```css
 /* Primary */
@@ -32,7 +30,6 @@ font-family: serif;
 **Primary:** Times New Roman, serif  
 **Sans serif alternative:** System UI stack  
 **Fallback:** Times New Roman, serif  
-**Character:** "Simpler times" - classic, readable, comfortable  
 **Usage:** All body content, captions, descriptions
 
 ```css
@@ -59,7 +56,6 @@ font-family: "Courier New", Courier, monospace;
 ### Labels
 **Primary:** System UI stack (sans-serif)  
 **Usage:** Form labels, metadata, small UI elements  
-**Character:** Clean, utilitarian
 
 ```css
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -102,34 +98,4 @@ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 - **Muted text:** #9CA3AF (light gray)
 
 ## Usage Examples
-
-### Article Structure
-```
-# Article Title (Display/H1)
-## Section Heading (H2)
-### Subsection (H3)
-Body paragraph text continues here...
-
-*Metadata: Published on Date* (Small)
-```
-
-### Navigation with Stars
-```
-Home ★ About ★ Blog ★ Contact
-```
-
-### Code Documentation
-```
-`inline code` (Monospace, small)
-
-```
-// Code block
-function example() {
-  return "Courier New keeps it simple";
-}
-```
-```
-
 ---
-
-*Typography is the foundation of all good design. Get this right, and everything else follows.*
