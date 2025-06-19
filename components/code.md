@@ -22,6 +22,7 @@ code {
 **Example:** Use the `console.log()` function to output values.
 
 ### Code Blocks
+
 For multi-line code examples:
 
 ```css
