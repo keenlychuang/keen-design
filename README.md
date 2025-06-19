@@ -8,7 +8,7 @@ A design system for personal blogs and websites that embraces restraint while in
 
 Keen Design prioritizes readability, functionality, and timeless aesthetics, with carefully placed accent elements that add personality without overwhelming the content.
 
-**Visual Motifs:** Stars (★), connecting strings/lines, geometric simplicity
+**Visual Motifs:** Dots, connecting strings/lines, geometric simplicity
 
 ## Documentation Structure
 
