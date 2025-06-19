@@ -8,19 +8,23 @@ A design system for personal blogs and websites that embraces restraint while in
 
 Keen Design prioritizes readability, functionality, and timeless aesthetics, with carefully placed accent elements that add personality without overwhelming the content.
 
-**Visual Motifs:** Stars, connecting strings/lines, geometric simplicity
+**Visual Motifs:** Dots, connecting strings/lines, geometric simplicity
 **Do not add:** Emojis, gradients, 
 
 ## Documentation Structure
 
 ### Foundations
+
 - [Philosophy](foundations/philosophy.md) - Core principles and approach
 - [Typography](foundations/typography.md) - Font hierarchy and text styling
 - [Colors](foundations/colors.md) - Color palette and usage
+
 <!-- - [Spacing](foundations/spacing.md) - Layout spacing and rhythm -->
 
 ### Components
+
 <!-- - [Buttons](components/buttons.md) - Button styles and variants -->
+
 - [Tables](components/tables.md) - Table formatting and layouts
 - [Callouts](components/callouts.md) - Information boxes and alerts
 - [Code Blocks](components/code-blocks.md) - Code styling and syntax
