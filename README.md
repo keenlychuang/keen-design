@@ -10,6 +10,7 @@ Keen Design prioritizes readability, functionality, and timeless aesthetics, wit
 
 **Visual Motifs:** Dots, connecting strings/lines, geometric simplicity
 **Do not add:** Emojis, gradients, 
+=======
 
 ## Documentation Structure
 
