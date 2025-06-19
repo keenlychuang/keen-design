@@ -31,7 +31,7 @@ For helpful tips, additional context, or general information:
 
 ```css
 .callout-info {
-  background-color: #EFF6FF; /* Blue 50 */
+  background-color: var(--gray-50); /* Minimal background */
   border-left-color: var(--accent);
   color: var(--text-primary);
 }
@@ -40,20 +40,18 @@ For helpful tips, additional context, or general information:
 **Example:**
 ```html
 <div class="callout callout-info">
-  <span class="callout-icon">ℹ️</span>
+  <span class="callout-icon">•</span>
   This is an informational callout with helpful context about the topic.
 </div>
 ```
-
-**Alternative icon:** ★ (star for Keen Design personality)
 
 ### Warning Callout
 For cautions, important notes, or things to watch out for:
 
 ```css
 .callout-warning {
-  background-color: #FFFBEB; /* Yellow 50 */
-  border-left-color: var(--star-gold);
+  background-color: var(--gray-50); /* Minimal background */
+  border-left-color: var(--warning);
   color: var(--text-primary);
 }
 ```
@@ -61,7 +59,7 @@ For cautions, important notes, or things to watch out for:
 **Example:**
 ```html
 <div class="callout callout-warning">
-  <span class="callout-icon">⚠️</span>
+  <span class="callout-icon">!</span>
   Be careful with this approach - it may have unintended consequences.
 </div>
 ```
@@ -71,7 +69,7 @@ For positive outcomes, completed tasks, or good practices:
 
 ```css
 .callout-success {
-  background-color: #ECFDF5; /* Green 50 */
+  background-color: var(--gray-50); /* Minimal background */
   border-left-color: var(--success);
   color: var(--text-primary);
 }
@@ -169,12 +167,18 @@ For brief notes within text flow:
 - **Inline callouts:** Single phrase or sentence
 
 ### Icon Usage
-- **Information:** ℹ️ or ★ (star for brand consistency)
-- **Warning:** ⚠️ or ⚡
-- **Success:** ✓ or ✅
-- **Quote:** " or ❝
-- **Tip:** 💡 or ★
-- **Note:** 📝 or •
+- **Information:** • (dot for brand consistency)
+- **Warning:** ! (exclamation mark)
+- **Success:** ✓ (checkmark)
+- **Quote:** " (quotation mark)
+- **Tip:** • (dot for consistency)
+- **Note:** • (dot for consistency)
+
+### Symbol Guidelines
+- **Use basic symbols only:** Avoid emojis or complex icons
+- **Ensure universal rendering:** Symbols should display consistently across all platforms
+- **Maintain semantic meaning:** Each symbol should clearly communicate the callout's purpose
+- **Keep it minimal:** Use the same symbol (•) for multiple purposes when meaning is clear from context
 
 ## Responsive Behavior
 
@@ -198,7 +202,7 @@ For brief notes within text flow:
 ### Screen Reader Support
 ```html
 <div class="callout callout-info" role="note" aria-label="Information">
-  <span class="callout-icon" aria-hidden="true">ℹ️</span>
+  <span class="callout-icon" aria-hidden="true">•</span>
   <span class="sr-only">Information: </span>
   This is important information for all users.
 </div>
@@ -223,12 +227,14 @@ All callout combinations meet WCAG AA standards:
 - Place callouts close to relevant content
 - Maintain consistent icon usage throughout your site
 - Test readability on various devices and screen sizes
+- Prefer basic symbols over decorative elements
 
 ### Avoid
 - Overusing callouts (no more than 2-3 per page section)
 - Long paragraphs in callouts
 - Nesting callouts within each other
 - Using callouts for primary content
+- Mixing emoji and text symbols
 
 ---
 

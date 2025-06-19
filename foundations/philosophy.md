@@ -2,7 +2,7 @@
 
 ## Core Principles
 
-Keen Design is about converging on the most simple and usable elements while maintaining identiy. The system prioritizes readability, functionality, and timelessness.
+Keen Design is about converging on the most simple and usable elements while maintaining identity. The system prioritizes readability, functionality, and timelessness.
 
 ### Design Keywords
 
@@ -17,7 +17,7 @@ Keen Design is about converging on the most simple and usable elements while mai
 The foundation is deliberately understated - classic serif fonts, simple layouts, muted colors. This creates a calm, readable environment that does not need to be updated or iterated often. 
 
 The "twist" comes through:
-<!-- - **Star motifs** (★) as navigation separators and accent elements -->
+- **Dot motifs** (•) as navigation separators and accent elements
 - **String/line connections** that subtly link related content
 - **Geometric simplicity** in decorative touches
 
@@ -43,11 +43,12 @@ This approach ensures your content remains the focus and your site ages graceful
 
 ## Visual Motifs
 
-### Dots (*)
+### Dots (•)
 
-- **Symbolism**: Excellence, highlights, waypoints
-- **Usage**: Navigation separators, special content markers, accent elements
+- **Symbolism**: Simplicity, waypoints, connection points
+- **Usage**: Navigation separators, callout markers, section dividers
 - **Restraint**: Use sparingly for maximum impact
+- **Character**: Basic, universal, unadorned
 
 ### Strings/Lines
 
@@ -59,6 +60,13 @@ This approach ensures your content remains the focus and your site ages graceful
 
 - **Approach**: Simple shapes and patterns
 - **Purpose**: Subtle visual interest without distraction
-- **Implementation**: Low opacity backgrounds, simple borders, clean icons
+- **Implementation**: Low opacity backgrounds, simple borders, clean typography symbols
+
+### Symbol Guidelines
+
+- **Prefer basic symbols**: •, ✓, !, ", - over emojis or complex icons
+- **Universal readability**: Symbols should render consistently across all systems
+- **Functional clarity**: Each symbol should have clear semantic meaning
+- **Minimal variety**: Stick to a small set of essential symbols
 
 ---
